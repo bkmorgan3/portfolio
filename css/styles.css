@@ -61,7 +61,11 @@ img {
 }
 
 .section-blue {
-    background-color: var(--dkblue)
+    background-color: var(--dkblue);
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-bottom: 5px;
 }
 /* Nav */
 nav {
@@ -130,7 +134,7 @@ nav h1 [class*="fa-"] {
 /* Intro styles */
 
 #intro {
-    padding: 4rem 1rem 10rem 1rem;
+    padding: 4rem 1rem 5rem 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -200,7 +204,6 @@ nav h1 [class*="fa-"] {
     color: var(--white);
     line-height: 1.5;
 }
-
 
 
 /* Contact Me */
