@@ -1,7 +1,7 @@
 :root {
     --black: #171321;
     --dkblue: #026e81;
-    --plum: #00abbd;
+    --plum: #22a2b0;
     --hotmag: #0099dd;
     --magenta: #ff9933;
     --aqua: #a1c7e0;
@@ -54,7 +54,7 @@ img {
 
 /* BG Color Divs */
 .gradient {
-    background: linear-gradient(90deg, rgb(239, 159, 229) 0%, rgba(134, 251, 251, 1) 100%);
+    background: linear-gradient(90deg, rgb(113, 146, 55) 0%, rgb(167, 170, 14) 100%);
     height: 2px;
     max-width: var(--max-width);
     margin: 0 auto;
