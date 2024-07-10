@@ -211,6 +211,10 @@ nav h1 [class*="fa-"] {
     line-height: 1.5;
 }
 
+.about {
+    height: 100vh;
+}
+
 
 /* Contact Me */
 
@@ -234,6 +238,11 @@ nav h1 [class*="fa-"] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+}
+
+.contact-section h1 {
+    padding-top: 4rem;
 }
 
 .contact-section form {
@@ -241,10 +250,10 @@ nav h1 [class*="fa-"] {
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
+    height: 100vh;
 }
 
 .contact-section form fieldset {
-    
     border: none;
     padding: 2rem
 }
@@ -256,6 +265,26 @@ label {
 input, textarea {
     margin: 10px 0 0 0 ;
     width: 100%;
+    background-color: #2a2a4b;
+    color: #f7f8fa;
+    min-height: 2em;;
+}
+
+input[type="submit"] {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    height: 3em;
+    border-radius: 3px;
+    min-width: 300px;
+    background-color: #6e6e7e;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #a1a1b3;
 }
 
 /* Footer */
