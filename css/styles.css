@@ -282,10 +282,10 @@ input[type="submit"] {
     font-size: 18px;
 }
 
-input[type="submit"]:hover {
+/* input[type="submit"]:hover {
     cursor: pointer;
     background-color: #a1a1b3;
-}
+} */
 
 /* Footer */
 footer {
