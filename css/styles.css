@@ -230,6 +230,34 @@ nav h1 [class*="fa-"] {
     margin-top: 3rem;
 }
 
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.contact-section form fieldset {
+    
+    border: none;
+    padding: 2rem
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+input, textarea {
+    margin: 10px 0 0 0 ;
+    width: 100%;
+}
+
 /* Footer */
 footer {
     text-align: center;
