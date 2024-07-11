@@ -212,7 +212,7 @@ nav h1 [class*="fa-"] {
 }
 
 .about {
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -243,6 +243,10 @@ nav h1 [class*="fa-"] {
 
 .contact-section h1 {
     padding-top: 4rem;
+}
+
+.contact-section p {
+    text-align: center;
 }
 
 .contact-section form {
