@@ -274,7 +274,7 @@ input, textarea {
     min-height: 2em;;
 }
 
-input[type="submit"] {
+button {
     width: 60%;
     display: block;
     margin: 0 auto;
@@ -286,9 +286,15 @@ input[type="submit"] {
     font-size: 18px;
 }
 
-input[type="submit"]:hover {
+button:hover:enabled {
     cursor: pointer;
     background-color: #a1a1b3;
+}
+
+.thankyou_message {
+    display: none;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 /* Footer */
