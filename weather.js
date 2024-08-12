@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(data)
         if(data.cod === 200) {
             
-            temp.innerHTML = `<p> In ${city} the current temperature is ${data.main.temp}F</p>`;
+            temp.innerHTML = `<p>  I live in ${city} where the current temperature is ${data.main.temp}F</p>`;
         } else {
             console.error("Error fetching weather:", data.message)
         }
