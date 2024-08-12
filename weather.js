@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     fetch(url)
     .then(res => res.json())
     .then(data => {
-        console.log(data)
         if(data.cod === 200) {
             
             temp.innerHTML = `<p>  I live in ${city} where the current temperature is ${data.main.temp}F</p>`;
