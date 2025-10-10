@@ -238,7 +238,6 @@ nav h1 [class*="fa-"] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .contact-section h1 {
@@ -323,12 +322,13 @@ footer ul {
         grid-column: 1/6;
         grid-row: 1/2;
     }
-    .text {
+     .text {
         grid-column: 5/11;
         grid-row: 1/2;
         order: 2;
         text-align: right;
     }
+    
     #projects ul {
         justify-content: flex-end;
     }
@@ -346,7 +346,7 @@ footer ul {
 
     #projects .reverse ul {
         justify-content: flex-start;
-    }
+    } 
 }
 
 
